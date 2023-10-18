@@ -1,3 +1,4 @@
+console.log("Code work ");
 var tl = gsap.timeline({paused:true})
 var tl2 = gsap.timeline({paused:true})
 var tl3 = gsap.timeline({paused:true})

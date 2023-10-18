@@ -208,14 +208,6 @@ plane9.addEventListener('click', ()=>{
     current_plane = 11;
     t20.restart();
 })   
- plane10.addEventListener('click', ()=>{
-    current_plane = 12;
-    t21.restart();
-})  
-plane11.addEventListener('click', ()=>{
-    current_plane = 13;
-    t22.restart();
-})
 
 
 //z-index
@@ -247,7 +239,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             current_plane = 9;
             $(".plane-eight").click()
         }else if (current_plane == 9) {
-            current_plane = 10;
+            current_plane = 1;
             $(".plane-nine").click()
         }
 

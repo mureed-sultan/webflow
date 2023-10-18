@@ -1,4 +1,3 @@
-console.log("Code work ");
 var tl = gsap.timeline({paused:true})
 var tl2 = gsap.timeline({paused:true})
 var tl3 = gsap.timeline({paused:true})
@@ -9,6 +8,8 @@ var tl7 = gsap.timeline({ paused: true })
 var tl8 = gsap.timeline({ paused: true })
 var tl9 = gsap.timeline({ paused: true })
 //variables
+
+
 const circleone = document.querySelector('.circle-one')
 const circletwo = document.querySelector('.circle-two')
 const circlethree = document.querySelector('.circle-three')
@@ -219,7 +220,6 @@ plane11.addEventListener('click', ()=>{
 
 //z-index
 document.addEventListener('DOMContentLoaded', ()=>{
-    // on plane-one click
 
     setInterval(function() {
         if (current_plane == 1) {
@@ -250,6 +250,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             current_plane = 10;
             $(".plane-nine").click()
         }
+
     }, 6000)
 }
 );

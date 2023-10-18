@@ -9,8 +9,6 @@ var tl7 = gsap.timeline({ paused: true })
 var tl8 = gsap.timeline({ paused: true })
 var tl9 = gsap.timeline({ paused: true })
 //variables
-
-
 const circleone = document.querySelector('.circle-one')
 const circletwo = document.querySelector('.circle-two')
 const circlethree = document.querySelector('.circle-three')

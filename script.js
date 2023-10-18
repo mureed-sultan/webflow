@@ -37,8 +37,69 @@ const plane11 = document.querySelector('.plane-eleven');
 const plane12 = document.querySelector('.plane-twelve');
 // const plane13 = document.querySelector('.plane-thirteen');
     
-
+if ($(window).width() <= 767) 
+{
+// mobile devices
 //tmeline 1
+tl.to(circlethree, { display: 'block', duration:0});
+tl.to(circletwo, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
+tl.to(circleone, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
+//timeline2
+tl2.to(circlefour, { display: 'block', duration:0});
+tl2.to(circlethree, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
+tl2.to(circletwo, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
+//timeline 3
+tl3.to(circlefour, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
+tl3.to(circlethree, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
+//timeline 4
+tl4.to(circleone, {clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration:1, ease: Power1.easeInOut});
+tl4.to(circlefour, {clipPath: 'circle(2rem at 85% 82%)', webkitClipPath: 'circle(2rem at 85% 82%)', duration:0});
+ tl5.to(circlefive, { clipPath: 'circle(114% at 70% 75%)', webkitClipPath: 'circle(114% at 70% 75%)', duration: 1, ease: Power1.easeInOut });
+  tl5.to(planefive, { display: 'block', duration: 0 });
+}
+// Tabs
+else if ($(window).width() <= 991) 
+{
+//tmeline 1
+tl.to(circlethree, { display: 'block', duration:0});
+tl.to(circletwo, {clipPath: 'circle(96% at 50% 72%)', webkitClipPath: 'circle(96% at 50% 72%)', duration:1, ease: Power1.easeInOut});
+tl.to(circleone, {clipPath: 'circle(2rem at 50% 72%)', webkitClipPath: 'circle(2rem at 50% 72%)', duration:0});
+//timeline2
+tl2.to(circlefour, { display: 'block', duration:0});
+tl2.to(circlethree, {clipPath: 'circle(96% at 50% 72%)', webkitClipPath: 'circle(96% at 50% 72%)', duration:1, ease: Power1.easeInOut});
+tl2.to(circletwo, {clipPath: 'circle(2rem at 50% 72%)', webkitClipPath: 'circle(2rem at 50% 72%)', duration:0});
+//timeline 3
+tl3.to(circlefour, {clipPath: 'circle(96% at 50% 72%)', webkitClipPath: 'circle(96% at 50% 72%)', duration:1, ease: Power1.easeInOut});
+tl3.to(circlethree, {clipPath: 'circle(2rem at 50% 72%)', webkitClipPath: 'circle(2rem at 50% 72%)', duration:0});
+//timeline 4
+tl4.to(circleone, {clipPath: 'circle(96% at 50% 72%)', webkitClipPath: 'circle(96% at 50% 72%)', duration:1, ease: Power1.easeInOut});
+tl4.to(circlefour, {clipPath: 'circle(2rem at 50% 72%)', webkitClipPath: 'circle(2rem at 50% 72%)', duration:0});
+}
+// IPad Pro
+else if ($(window).width() <= 1024)  {
+//tmeline 1
+tl.to(circlethree, { display: 'block', duration:0});
+tl.to(circletwo, {clipPath: 'circle(100% at 50% 67%)', webkitClipPath: 'circle(100% at 50% 67%)', duration:1, ease: Power1.easeInOut});
+tl.to(circleone, {clipPath: 'circle(2rem at 50% 67%)', webkitClipPath: 'circle(2rem at 50% 67%)', duration:0});
+//timeline2
+tl2.to(circlefour, { display: 'block', duration:0});
+tl2.to(circlethree, {clipPath: 'circle(100% at 50% 67%)', webkitClipPath: 'circle(100% at 50% 67%)', duration:1, ease: Power1.easeInOut});
+tl2.to(circletwo, {clipPath: 'circle(2rem at 50% 67%)', webkitClipPath: 'circle(2rem at 50% 67%)', duration:0});
+//timeline 3
+tl3.to(circlefour, {clipPath: 'circle(100% at 50% 67%)', webkitClipPath: 'circle(100% at 50% 67%)', duration:1, ease: Power1.easeInOut});
+tl3.to(circlethree, {clipPath: 'circle(2rem at 50% 67%)', webkitClipPath: 'circle(2rem at 50% 67%)', duration:0});
+//timeline 4
+tl4.to(circleone, {clipPath: 'circle(100% at 50% 67%)', webkitClipPath: 'circle(100% at 50% 67%)', duration:1, ease: Power1.easeInOut});
+tl4.to(circlefour, {clipPath: 'circle(2rem at 50% 67%)', webkitClipPath: 'circle(2rem at 50% 67%)', duration:0});
+
+tl5.to(circleone, {clipPath: 'circle(100% at 50% 67%)', webkitClipPath: 'circle(100% at 50% 67%)', duration:1, ease: Power1.easeInOut});
+tl5.to(circlefour, {clipPath: 'circle(2rem at 50% 67%)', webkitClipPath: 'circle(2rem at 50% 67%)', duration:0});
+}
+// Desktop
+else if ($(window).width() >= 1025)  {
+//tmeline 1
+    tl.to(circlethree, { display: 'block', duration:0});
+
 tl.to(circletwo, {
 clipPath: 'circle(96% at 50% 75%)',
 webkitClipPath: 'circle(96% at 50% 75%)',
@@ -159,6 +220,7 @@ clipPath: 'circle(2rem at 50% 75%)',
 webkitClipPath: 'circle(2rem at 50% 75%)',
 duration: 0
 });
+}
 var current_plane = 1;
 
 plane1.addEventListener('click', ()=>{

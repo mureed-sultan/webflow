@@ -252,6 +252,6 @@ document.addEventListener('DOMContentLoaded', ()=>{
             current_plane = 10;
             $(".plane-nine").click()
         }
-    }, 1000)
+    }, 6000)
 }
 );
